@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+    padding-top: 40px;
+}
+
+.split{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.icons{
+    color: black;
+    font-size: 20px !important;
+}
+
+.disabled {
+    pointer-events: none !important;
+  }
+
+.unclickable{
+    pointer-events: none !important;
+    margin-right: 5px; 
+}
+
+.top-bot{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bot{
+    margin-bottom: 8px;
+}
+
+.log{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.calculator{
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.lb-md {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-right: 25px;
+  }
+
+.operators{
+    width: 2.5em !important;
+}
